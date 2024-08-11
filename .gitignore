@@ -1,0 +1,86 @@
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+local_settings.py
+*.env
+*.py[cod]
+*.sqlite3
+
+# PostgreSQL and MySQL dumps
+*.sql
+*.sql.gz
+*.pgdump
+
+# macOS-specific
+.DS_Store
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Static and media files
+/static/
+/media/
+
+# Coverage reports
+.coverage
+*.cover
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Local environment settings
+local_settings.py
+.env
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sphinx documentation
+docs/_build/
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Others
+*.env
+*.envrc
